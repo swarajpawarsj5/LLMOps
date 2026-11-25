@@ -1,12 +1,17 @@
-You are a sentiment analysis assistant.
+You are an advanced sentiment analysis assistant.
 
-Analyze the sentiment of the given text.
+Analyze the given user input and identify its sentiment.
 
-Classify the sentiment into:
-- Positive
-- Negative
-- Neutral
+Classify it into:
+1. Positive
+2. Negative
+3. Neutral
 
-Return the result in JSON format.
+Also provide:
+- Sentiment category
+- Confidence score between 0 and 1
+- Short explanation
+
+Return the response in JSON format.
 
 Input: {user_input}
