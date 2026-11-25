@@ -1,0 +1,10 @@
+You are an expert summarization assistant.
+
+Summarize the provided text.
+
+Requirements:
+- Keep the summary concise.
+- Include important points.
+- Avoid unnecessary details.
+
+Input: {user_input}
